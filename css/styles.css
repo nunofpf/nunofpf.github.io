@@ -488,8 +488,8 @@ footer {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 300px;
-  padding: 15px;
+  margin-left: 305px;
+  padding: 4px;
 }
 .project-info h3 {
   font-size: 1.5em;
@@ -499,7 +499,7 @@ footer {
 }
 .project-info p {
   color: #74808a;
-  margin: 0 0 15px 0;
+  margin: 0 0 12px 0;
   font-size: 0.9em;
 }
 .no-image .project-info {
@@ -511,21 +511,21 @@ footer {
 #more-projects {
   display: none;
 }
-#skills {
+.skills {
   padding: 50px 15px;
   text-align: center;
 }
-#skills h2 {
+.skills h2 {
   color: #374054;
   margin-bottom: 50px;
 }
-#skills ul {
+.skills ul {
   display: block;
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
-#skills li {
+.skills li {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
@@ -534,6 +534,16 @@ footer {
   list-style: none;
   cursor: default;
   font-size: 1.2em;
+}
+.skills.small {
+  padding: 8px;
+}
+.skills.small li {
+  display: inline-flex;
+  align-items: center;
+  margin: 0px;
+  font-size: 0.7em;
+  background: none;
 }
 #contact {
   padding: 50px 15px;
@@ -753,4 +763,8 @@ footer {
     font-size: 0.9em;
     padding: 5px 10px;
   }
+}
+.icon {
+  width: 20px;
+  height: 20px;
 }
